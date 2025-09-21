@@ -3,6 +3,11 @@
 
 Proyecto fullstack: Django + React para conectar usuarios con trabajadores por ubicación.
 
+## 📚 Documentación y Recursos
+
+- **[Documentación Principal](./servic-app/docs/README.md)** - Guía completa con documentación para usuarios, proveedores y administradores
+- **[Colección Insomnia](./Insomnia_2025-09-21.yaml)** - Archivo de pruebas API para Insomnia REST Client
+
 ---
 
 ## 🐍 Backend - Django REST Framework
