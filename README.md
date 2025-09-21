@@ -1,16 +1,16 @@
 
-# Servic - Guía de instalación 🔧
+# Servic - Guía de instalación 
 
 Proyecto fullstack: Django + React para conectar usuarios con trabajadores por ubicación.
 
-## 📚 Documentación y Recursos
+## Documentación y Recursos
 
 - **[Documentación Principal](./servic-app/docs/README.md)** - Guía completa con documentación para usuarios, proveedores y administradores
 - **[Colección Insomnia](./Insomnia_2025-09-21.yaml)** - Archivo de pruebas API para Insomnia REST Client
 
 ---
 
-## 🐍 Backend - Django REST Framework
+## Backend - Django REST Framework
 
 ### 1. Clonar el repositorio
 ```bash  
@@ -48,7 +48,7 @@ pip install django-cors-headers
 ```bash  
 python manage.py runserver
 ```
-## ⚛️ Frontend - React
+## Frontend - React
 
 ### 1. Ir al directorio frontend
 
@@ -77,7 +77,3 @@ json
 ```bash 
 npm start
 ```
-
-### ✅ Checklist de verificación
-
-- [x] Login/registro funcional.

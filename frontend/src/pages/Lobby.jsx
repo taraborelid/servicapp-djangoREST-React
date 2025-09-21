@@ -31,10 +31,7 @@ useEffect(() => {
   fetchUser();
 }, []);
 
-  {/*usamos fetchUser para obtener los datos del usuario al cargar el componente
-    es una funcion asíncrona que hace una petición a la API para obtener los datos del usuario
-    */}
- 
+  
   const handleLogout = async () => {
   const refresh = localStorage.getItem('refresh');
   try {

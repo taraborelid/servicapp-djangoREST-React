@@ -1,12 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/styles.css';
-{/* Cuando se tiene mas de un elemento hermano directamente dentro del return se usa <> 
-    Cuando se hace un componente en react, lo que pongas dentro del return() tiene que estar contenido 
-    en un unico elemento HTML o JSX, ese es el elemento raiz.
-    React no te deja tener mas de un nodo al mismo nivel sin envolverlo
-    sino se quiere agregar un div extra se usa <>
-    si tienes un header, un main o footer debes agregarle un div o <>
-    */}
+
 function Home() {
     return (
         <> 

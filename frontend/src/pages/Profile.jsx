@@ -133,28 +133,70 @@ function Profile() {
                 )}
               </div>
               <form className="profile-form" onSubmit={handleSubmit}>
-                <div className="profile-fields">
-                  <input name="username" value={formData.username} onChange={handleChange} placeholder="Usuario" />
-                  <input name="email" value={formData.email} onChange={handleChange} placeholder="Email" />
-                  <input name="first_name" value={formData.first_name} onChange={handleChange} placeholder="Nombre" />
-                  <input name="last_name" value={formData.last_name} onChange={handleChange} placeholder="Apellido" />
-                  <input name="phone_number" value={formData.phone_number} onChange={handleChange} placeholder="Teléfono" />
-                  <input name="address" value={formData.address} onChange={handleChange} placeholder="Dirección" />
-                  <input name="zip_code" value={formData.zip_code} onChange={handleChange} placeholder="Código postal" />
-                  <input name="city" value={formData.city} onChange={handleChange} placeholder="Ciudad" />
-                  <input name="state" value={formData.state} onChange={handleChange} placeholder="Provincia" />
-                  <input name="country" value={formData.country} onChange={handleChange} placeholder="País" />
-                  <input name="password" type="password" value={formData.password} onChange={handleChange} placeholder="Nueva contraseña" autoComplete="new-password" />
-                  <input name="password2" type="password" value={formData.password2} onChange={handleChange} placeholder="Confirmar contraseña" autoComplete="new-password" />
-                  <select name="gender" value={formData.gender} onChange={handleChange} className="profile-select">
-                    <option value="">Selecciona género</option>
-                    <option value="male">Masculino</option>
-                    <option value="female">Femenino</option>
-                    <option value="other">Otro</option>
-                    <option value="prefer_not_to_say">Prefiero no decirlo</option>
-                  </select>
-                  <input name="date_of_birth" type="date" value={formData.date_of_birth} onChange={handleChange} className="profile-date" />
-                </div>
+            <div className="profile-fields">
+              <div>
+                <label>Usuario</label>
+                <input name="username" value={formData.username} onChange={handleChange} placeholder="Usuario" />
+              </div>
+              <div>
+                <label>Email</label>
+                <input name="email" value={formData.email} onChange={handleChange} placeholder="Email" />
+              </div>
+              <div>
+                <label>Nombre</label>
+                <input name="first_name" value={formData.first_name} onChange={handleChange} placeholder="Nombre" />
+              </div>
+              <div>
+                <label>Apellido</label>
+                <input name="last_name" value={formData.last_name} onChange={handleChange} placeholder="Apellido" />
+              </div>
+              <div>
+                <label>Teléfono</label>
+                <input name="phone_number" value={formData.phone_number} onChange={handleChange} placeholder="Teléfono" />
+              </div>
+              <div>
+                <label>Dirección</label>
+                <input name="address" value={formData.address} onChange={handleChange} placeholder="Dirección" />
+              </div>
+              <div>
+                <label>Código postal</label>
+                <input name="zip_code" value={formData.zip_code} onChange={handleChange} placeholder="Código postal" />
+              </div>
+              <div>
+                <label>Ciudad</label>
+                <input name="city" value={formData.city} onChange={handleChange} placeholder="Ciudad" />
+              </div>
+              <div>
+                <label>Provincia</label>
+                <input name="state" value={formData.state} onChange={handleChange} placeholder="Provincia" />
+              </div>
+              <div>
+                <label>País</label>
+                <input name="country" value={formData.country} onChange={handleChange} placeholder="País" />
+              </div>
+              <div>
+                <label>Nueva contraseña</label>
+                <input name="password" type="password" value={formData.password} onChange={handleChange} placeholder="Nueva contraseña" autoComplete="new-password" />
+              </div>
+              <div>
+                <label>Confirmar contraseña</label>
+                <input name="password2" type="password" value={formData.password2} onChange={handleChange} placeholder="Confirmar contraseña" autoComplete="new-password" />
+              </div>
+              <div>
+                <label>Género</label>
+                <select name="gender" value={formData.gender} onChange={handleChange} className="profile-select">
+                  <option value="">Selecciona género</option>
+                  <option value="male">Masculino</option>
+                  <option value="female">Femenino</option>
+                  <option value="other">Otro</option>
+                  <option value="prefer_not_to_say">Prefiero no decirlo</option>
+                </select>
+              </div>
+              <div>
+                <label>Fecha de nacimiento</label>
+                <input name="date_of_birth" type="date" value={formData.date_of_birth} onChange={handleChange} className="profile-date" />
+              </div>
+            </div>
                 <button className="profile-save" type="submit">Actualizar Datos</button>
               </form>
               {!isVerified && (
