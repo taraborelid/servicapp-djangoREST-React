@@ -10,6 +10,11 @@ Proyecto fullstack: Django + React para conectar usuarios con trabajadores por u
 
 ---
 
+### Video de test de Insomnia
+[![Ver video](assets/thumb.jpg)](https://vimeo.com/1137016554?share=copy&fl=sv&fe=ci)
+
+---
+
 ## Backend - Django REST Framework
 
 ### 1. Clonar el repositorio
